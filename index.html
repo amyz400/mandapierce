@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manda Pierce</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <a href="#" class="logo" onclick="showPage('home')">
+          <span class="author-name">Manda Pierce</span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#" onclick="showPage('home')">Books</a></li>
+          <li><a href="#" onclick="showPage('about')">About</a></li>
+        </ul>
+        <div class="mobile-menu" onclick="toggleMobileMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <!-- Home Page - Books -->
+      <div id="home" class="page active">
+        <div class="hero">
+          <div class="hero-content">
+            <h1>Books</h1>
+            <p class="hero-subtitle">
+              Powerful stories exploring second chances, hidden family truths,
+              and the path to self-discovery found in facing one's past
+            </p>
+          </div>
+          <div class="decorative-line"></div>
+        </div>
+
+        <div class="books-section">
+          <h2 class="section-title">Published Works</h2>
+
+          <div class="books-list">
+            <article class="book-row">
+              <div class="book-cover-container">
+                <img
+                  src="./images/dying.jpg"
+                  alt="Dying Changes Everything"
+                  class="book-cover"
+                />
+              </div>
+
+              <div class="book-info">
+                <div class="book-header">
+                  <h3 class="book-title">Dying Changes Everything</h3>
+                </div>
+
+                <div class="book-description">
+                  <p>
+                    Ronnie Hart's life changes forever the day she dies—or
+                    almost dies—saving her beloved dog, Rocco, from drowning.
+                    Against all odds, modern medicine, sheer luck, and a touch
+                    of fate give her a second chance. But coming back to life
+                    doesn't mean picking up where she left off.
+                  </p>
+
+                  <p>
+                    Haunted by memories of what could have been and consumed by
+                    regrets she can't seem to shake, Ronnie struggles to find
+                    her footing in the world she almost left behind. In a
+                    desperate bid for redemption, she and Rocco embark on a road
+                    trip of atonement, retracing the steps of her past mistakes
+                    and seeking closure.
+                  </p>
+
+                  <p>
+                    As miles roll by and Ronnie confronts the people and
+                    decisions she left behind, she begins to realize her
+                    greatest regret isn't what she thought it was. With time
+                    running out, she must decide to return to the past or
+                    abandon it forever - a choice that could cost her
+                    everything.
+                  </p>
+                  <p class="book-description">
+                    Buy <a href="https://a.co/d/aULEf8n">here</a>.
+                  </p>
+                  <p class="book-tagline">
+                    <em
+                      >A heartwarming and bittersweet journey of love, loyalty,
+                      and second chances, Dying Changes Everything reminds us
+                      all that it's never too late to make things right.</em
+                    >
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="book-row">
+              <div class="book-cover-container">
+                <img
+                  src="./images/hit.jpg"
+                  alt="Hidden in the Trees"
+                  class="book-cover"
+                />
+              </div>
+
+              <div class="book-info">
+                <div class="book-header">
+                  <h3 class="book-title">Hidden in the Trees</h3>
+                </div>
+
+                <div class="book-description">
+                  <p>
+                    Fifteen years ago, Kelly Bowers fled Riverton, Virginia,
+                    leaving behind a troubled home and a life she couldn't wait
+                    to escape. Now, a family health scare forces her back to her
+                    childhood town, along with her teenage daughter, Daisy,
+                    reopening old wounds Kelly thought she'd buried forever.
+                  </p>
+
+                  <p>
+                    For Daisy, Riverton is an exciting mystery. Her mother has
+                    always avoided talking about her past, and Daisy sees this
+                    trip as her chance to uncover the secrets Kelly has
+                    carefully hidden—starting with the identity of her father.
+                    But the deeper Daisy digs into her mother's life, the more
+                    questions she uncovers, including the significance of the
+                    hidden pond Kelly forbids her to visit.
+                  </p>
+
+                  <p>
+                    As Kelly grapples with the memories she's spent years
+                    suppressing, Daisy grows closer to uncovering the truth
+                    about her family and her roots. When tensions between them
+                    boil over, both mother and daughter are forced to confront
+                    their pasts and decide whether they can build a future
+                    together.
+                  </p>
+                  <p class="book-description">
+                    Buy <a href="https://a.co/d/iDz1RGl">here</a>.
+                  </p>
+                  <p class="book-tagline">
+                    <em
+                      >Hidden in the Trees is a moving story of family,
+                      forgiveness, and the search for identity. It explores the
+                      power of secrets, the bonds between mothers and daughters,
+                      and the courage it takes to face the past.</em
+                    >
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Page -->
+      <div id="about" class="page">
+        <div class="about-section">
+          <div class="about-header">
+            <h2 class="section-title">About the Author</h2>
+            <div class="decorative-line"></div>
+          </div>
+
+          <div class="about-content">
+            <div class="about-text">
+              <p class="drop-cap">
+                Manda Pierce is a passionate storyteller who crafts heartfelt
+                and empowering tales that explore the lives of women navigating
+                love, friendship, and self-discovery. With a knack for capturing
+                authentic emotions and relatable experiences, her stories
+                resonate with readers who seek meaningful connections through
+                the written word.
+              </p>
+
+              <p>
+                Inspired by the complexities of life and the strength of the
+                human spirit, Manda weaves narratives that delve into the
+                triumphs and challenges women face as they strive to find their
+                place in the world. Her characters—each vibrant, flawed, and
+                beautifully human—reflect the everyday heroines we encounter in
+                our own lives.
+              </p>
+
+              <p>
+                Manda lives in Southeastern Pennsylvania with her husband, three
+                children and two dogs. When she isn't writing, she spends her
+                time as a chauffeur, chef-extraordinaire, youth counselor,
+                dog-walker, and laundress.
+              </p>
+
+              <div class="contact-info">
+                <p>
+                  To connect with Manda, follow her on Instagram
+                  <a
+                    href="https://instagram.com/mandapierce_writer"
+                    class="social-link"
+                    target="_blank"
+                    >@mandapierce_writer</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2025 Manda Pierce. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function showPage(pageId) {
+        const pages = document.querySelectorAll(".page");
+        pages.forEach((page) => {
+          page.classList.remove("active");
+        });
+
+        document.getElementById(pageId).classList.add("active");
+        document.getElementById("navLinks").classList.remove("active");
+      }
+
+      function toggleMobileMenu() {
+        const navLinks = document.getElementById("navLinks");
+        navLinks.classList.toggle("active");
+      }
+
+      document.addEventListener("click", function (event) {
+        const navLinks = document.getElementById("navLinks");
+        const mobileMenu = document.querySelector(".mobile-menu");
+
+        if (
+          !navLinks.contains(event.target) &&
+          !mobileMenu.contains(event.target)
+        ) {
+          navLinks.classList.remove("active");
+        }
+      });
+    </script>
+  </body>
+</html>
